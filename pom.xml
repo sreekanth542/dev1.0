@@ -18,11 +18,11 @@
 
 		<repository>
 			<id>Maven-release</id>
-			<url>http://localhost:8081/nexus/content/repositories/Maven-release/</url>
+			<url>curl http://192.168.43.103:8081/nexus/content/repositories/ARTech/</url>
 		</repository>
 		<snapshotRepository>
 			<id>Maven-snapshot</id>
-			<url>http://localhost:8081/nexus/content/repositories/Maven-snapshot/</url>
+			<url>curl http://192.168.43.103:8081/nexus/content/repositories/ARTech/</url>
 		</snapshotRepository>		
   </distributionManagement>
 </project>
